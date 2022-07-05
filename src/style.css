@@ -65,7 +65,7 @@ nav .navbar .menu li{
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
-  color: #4070f4;
+  color: #c1c1c1;
 }
 nav.sticky .menu a{
   color: #FFF;
@@ -94,8 +94,11 @@ nav .menu-btn,
   transition: all 0.3s ease;
   display: none;
 }
+.navbar .menu .cancel-btn a:hover {
+    color: red;
+}
 nav .menu-btn{
-  color: #4070f4;
+  color: #535353;
 }
 nav.sticky .menu-btn{
   color: #FFF;
@@ -135,7 +138,7 @@ nav.sticky .menu-btn{
 .home .text-three{
   font-size: 40px;
   margin: 5px 0;
-  color: #4070f4;
+  color: #535353;
 }
 .home .text-four{
   font-size: 23px;
@@ -238,21 +241,21 @@ section .button button{
   border-radius: 4px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #7a7a7a;
   color: #fff;
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
 }
 section .button button:hover{
-  border-color: #4070f4;
+  border-color: #f48840;
   background-color: #fff;
-  color: #4070f4;
+  color: #f84c4c;
 }
 
  /* My Skills CSS */
  .skills{
-   background: #F0F8FF;
+   background: #cfcfcf;
  }
  .skills .content{
    padding: 40px 0;
@@ -297,11 +300,11 @@ section .button button:hover{
 }
 .skills-details .boxes .topic{
   font-size: 20px;
-  color: #4070f4;
+  color: #535353;
 }
 .skills-details .boxes .per{
   font-size: 60px;
-  color: #4070f4;
+  color: #535353;
 }
 
 /* My Services CSS */
@@ -321,13 +324,13 @@ section .button button:hover{
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover{
-  background: #4070f4;
+  background: #535353;
   color: #fff;
 }
 .services .boxes .box .icon{
   height: 50px;
   width: 50px;
-  background: #4070f4;
+  background: #535353;
   border-radius: 50%;
   text-align: center;
   line-height: 50px;
@@ -338,11 +341,11 @@ section .button button:hover{
 }
 .boxes .box:hover .icon{
   background-color: #fff;
-  color: #4070f4;
+  color: #535353;
 }
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
-  color: #0E2431;
+  color: #535353;
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover .topic,
@@ -351,7 +354,7 @@ section .button button:hover{
 }
 /* Contact Me CSS */
 .contact{
-  background: #F0F8FF;
+  background: #cfcfcf;
 }
 .contact .content{
   margin: 0 auto;
@@ -365,7 +368,7 @@ section .button button:hover{
 
 /* Footer CSS */
 footer{
-  background: #4070f4;
+  background: #535353;
   padding: 15px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -388,7 +391,7 @@ footer .text span a:hover{
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background: #4070f4;
+  background: #535353;
   padding: 7px 12px;;
   font-size: 18px;
   border-radius: 6px;
@@ -436,7 +439,7 @@ footer .text span a:hover{
     position: fixed;
     left: -100%;
     top: 0;
-    background: #0E2431;
+    background: #535353;
     height: 100vh;
     max-width: 400px;
     width: 100%;
@@ -455,7 +458,7 @@ footer .text span a:hover{
     margin: 10px 0;
   }
   nav.sticky .menu a:hover{
-    color: #4070f4;
+    color: #c1c1c1;
   }
   nav .navbar .media-icons{
     display: none;
